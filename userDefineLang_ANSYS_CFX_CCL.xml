@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="ANSYS CFX-Pre CCL" ext="ccl" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">: = ! ( ) /</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open">{ LIBRARY MATERIAL &apos;MATERIAL GROUP&apos; PROPERTIES &apos;REFERENCE STATE&apos; &apos;SPECIFIC HEAT CAPACITY&apos; &apos;THERMAL CONDUCTIVITY&apos; &apos;EQUATION OF STATE&apos; &apos;DYNAMIC VISCOSITY&apos; &apos;REFRACTIVE INDEX&apos; &apos;SCATTERING COEFFICIENT&apos; &apos;ABSORPTION COEFFICIENT&apos; &apos;THERMAL EXPANSIVITY&apos; &apos;BOUNDARY CONDITIONS&apos; &apos;BOUNDARY&apos; FLOW DOMAIN &apos;COMMAND FILE&apos; &apos;MASS AND MOMENTUM&apos; &apos;FLOW REGIME&apos; PRODUCTS &apos;CHILD MATERIAL&apos; REACTANTS &apos;FORWARD REACTION RATE&apos; REACTION &apos;PARENT MATERIAL&apos; &apos;HEAT RELEASE&apos; &apos;REACTION ACTIVATION&apos; &apos;MULTIPHASE REACTION RATE&apos; &apos;CHAR OXIDATION RATE&apos; &apos;EXTERNAL DIFFUSION&apos; &apos;HEAT RELEASE DISTRIBUTION&apos; &apos;COMBUSTION MODEL&apos; &apos;MATERIAL ANALYSIS&apos; &apos;HEATING VALUE&apos; &apos;MOISTURE LATENT HEAT&apos; &apos;PROXIMATE ANALYSIS&apos; &apos;ULTIMATE ANALYSIS&apos; &apos;VOLATILES RELEASE&apos; &apos;VOLATILES MOLAR MASS&apos; &apos;MIXTURE MATERIALS&apos; &apos;GAS MIXTURE&apos; &apos;PARTICLE MIXTURE&apos; &apos;SATURATION PROPERTIES&apos; PRESSURE TEMPERATURE &apos;LOWER INTERVAL COEFFICIENTS&apos; &apos;TEMPERATURE LIMITS&apos; &apos;PHYSICS CONTROL&apos; &apos;UPPER INTERVAL COEFFICIENTS&apos; COMPONENT &apos;HEAT TRANSFER&apos; TURBULENCE FLUID &apos;PARTICLE DIAMETER DISTRIBUTION&apos; &apos;PARTICLE MASS FLOW RATE&apos; &apos;PARTICLE POSITION&apos; &apos;NUMBER OF POSITIONS&apos; &apos;BUOYANCY MODEL&apos; &apos;DOMAIN MODELS&apos; &apos;MESH DEFORMATION&apos; &apos;DOMAIN MOTION&apos; &apos;REFERENCE PRESSURE&apos; &apos;FLUID DEFINITION&apos; MORPHOLOGY &apos;EROSION MODEL&apos; &apos;THERMAL RADIATION MODEL&apos; &apos;TURBULENT WALL FUNCTIONS&apos; &apos;FLUID PAIR&apos; &apos;LATENT HEAT&apos; &apos;INTERPHASE HEAT TRANSFER&apos; &apos;MOMENTUM TRANSFER&apos; &apos;DRAG FORCE&apos; &apos;PRESSURE GRADIENT FORCE&apos; &apos;TURBULENT DISPERSION FORCE&apos; &apos;VIRTUAL MASS FORCE&apos;</Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close">} END </Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1"></Keywords>
+            <Keywords name="Keywords2">Option &apos;Dynamic Viscosity&apos; &apos;Thermodynamic State&apos; &apos;Material Group&apos; &apos;Refractive Index&apos; &apos;Material Description&apos; &apos;Scattering Coefficient&apos; &apos;Absorption Coefficient&apos; &apos;Thermal Conductivity&apos; &apos;Molar Mass&apos; &apos;Specific Heat Capacity&apos; &apos;Specific Heat Type&apos; &apos;Reference Pressure&apos; &apos;Reference Specific Enthalpy&apos; &apos;Reference Specific Entropy&apos; &apos;Reference Temperature&apos; &apos;Thermal Expansivity&apos; Density &apos;Group Description&apos; &apos;Boundary Type&apos; &apos;Location&apos; &apos;Relative Pressure&apos; Version &apos;Reaction Description&apos; &apos;Pre Exponential Factor&apos; &apos;Temperature Exponent&apos; &apos;Activation Energy&apos; &apos;Materials List&apos; &apos;Reaction Order&apos; &apos;Stoichiometric Coefficient&apos; &apos;Material Amount Option&apos; &apos;Reference Material&apos; &apos;Reference Parent Material&apos; &apos;Parent Materials List&apos; &apos;Fraction of Heat Released&apos; &apos;Maximum Reaction Temperature&apos; &apos;Activation Temperature&apos; &apos;Reference Dynamic Diffusivity&apos; &apos;Latent Heat&apos; &apos;Lower Temperature&apos; &apos;Upper Temperature&apos; &apos;Mass Coefficient&apos; &apos;Additional Materials List&apos; &apos;Reactions List&apos; &apos;Heating Value&apos; &apos;Ash Fraction&apos; &apos;Fixed Carbon Fraction&apos; &apos;Moisture Fraction&apos; &apos;Volatiles Fraction&apos; &apos;Carbon Fraction&apos; &apos;Chlorine Fraction&apos; &apos;Hydrogen Fraction&apos; &apos;Nitrogen Fraction&apos; &apos;Oxygen Fraction&apos; &apos;Sulphur Fraction&apos; &apos;Enhancement of Yield&apos; &apos;Binary Mixture Material&apos; &apos;Carbon Dioxide Material&apos; &apos;Mixture Material&apos; &apos;Nitrogen Material&apos; &apos;Oxygen Material&apos; &apos;Volatiles Fuel Material&apos; &apos;Water Vapour Material&apos; &apos;Ash Material&apos; &apos;Char Material&apos; &apos;Raw Combustible Material&apos; &apos;Binary Material1&apos; &apos;Binary Material2&apos; &apos;Antoine Enthalpic Coefficient B&apos; &apos;Antoine Pressure Scale&apos; &apos;Antoine Reference State Constant A&apos; &apos;Antoine Temperature Offset C&apos; &apos;NASA a1&apos; &apos;NASA a2&apos; &apos;NASA a3&apos; &apos;NASA a4&apos; &apos;NASA a5&apos; &apos;NASA a6&apos; &apos;NASA a7&apos; &apos;Midpoint Temperature&apos; &apos;Default Domain Generation&apos; &apos;Coord Frame&apos; &apos;Domain Type&apos; &apos;Mass Fraction&apos; &apos;Static Temperature&apos; &apos;Normal Speed&apos; Diameter &apos;Mass Flow Rate&apos; Number Material &apos;Particle Coupling&apos;</Keywords>
+            <Keywords name="Keywords3">$</Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00[ 01 02] 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="400080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
